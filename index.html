@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PoE transrate App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form>
+      <div class="map">
+        <label for="maplabel">MAPの名前変換ツール</label>
+
+        <input
+          type="text"
+          name="map"
+          id="mapID"
+          value=""
+          placeholder="mapの名前を入力!"
+        />
+        <button type="submit">送信</button>
+
+        
+      
+
+      <div class="map_output">
+        <p>名前が出ます<span class="mapname"></span></p>
+      </div>
+    </form>
+    <script src="app.js"></script>
+    <script src="database.js"></script>
+  </body>
+</html>
